@@ -63,6 +63,9 @@
 }
 
 /* Tablet Styles*/
+
+/*Creates min-width and max-width in a media query */
+/* @media creates different styles for different screen types/sizes*/
 @media screen and (min-width: 520px) and (max-width: 1024px) {
   .flex-container {
     height: fit-content;
@@ -84,6 +87,7 @@
   }
 }
 
+/*defines the maximum size when setting the screen size*/
 @media screen and (max-width: 520px) {
   .half,
     .third,
